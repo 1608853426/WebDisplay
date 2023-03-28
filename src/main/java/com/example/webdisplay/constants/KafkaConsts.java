@@ -6,6 +6,8 @@ public interface KafkaConsts {
      */
     Integer DEFAULT_PARTITION_NUM = 1;
 
+    String TOPIC_REQ = "user_request";
+
     /**
      * Topic 名称
      */
