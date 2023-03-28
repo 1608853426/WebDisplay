@@ -1,7 +1,6 @@
 server:
-  port: 8003
-  servlet:
-    context-path: /demo
+  port: 8089
+
 spring:
   kafka:
     bootstrap-servers: 47.92.114.244:9092
