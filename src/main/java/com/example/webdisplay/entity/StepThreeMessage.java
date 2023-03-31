@@ -6,18 +6,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
-@Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
+@Data
 @Accessors(chain = true)
-public class StepOneMessage {
+public class StepThreeMessage {
     Integer step;
-
     String requestId;
+    String url;
 
-    String user;
-
-    String task;
-
-    String time;
+    String timeStamp;
 }

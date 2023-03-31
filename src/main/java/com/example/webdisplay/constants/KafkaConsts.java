@@ -11,5 +11,8 @@ public interface KafkaConsts {
     /**
      * Topic 名称
      */
-    String TOPIC_TEST = "rel";
+    String TOPIC_RESULT = "place_result";
+
+    String TOPIC_COMMAND = "node_command";
+
 }

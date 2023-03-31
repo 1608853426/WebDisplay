@@ -1,23 +1,27 @@
 package com.example.webdisplay.entity;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Accessors(chain = true)
-public class StepOneMessage {
+public class StepTwoMessage {
     Integer step;
-
     String requestId;
 
-    String user;
+    String node;
 
-    String task;
+    String timeStamp;
 
-    String time;
+    String cpuSize;
+
+    String memorySize;
+
+    String terminalModel;
+
+    String state;
 }
